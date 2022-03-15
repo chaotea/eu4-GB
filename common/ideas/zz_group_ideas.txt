@@ -41,8 +41,8 @@ client_ideas = {
 
 colonial_ideas = {
 	start = {
-		development_cost = -0.1
-		no_religion_penalty = yes
+		culture_conversion_cost = -0.9
+		num_accepted_cultures = -5
 	}
 	
 	bonus = {

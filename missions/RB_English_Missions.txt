@@ -106,10 +106,10 @@ eng_rb_gibraltar = {
 				name = "eng_rb_gibraltar_mod"
 				duration = 5475
 			}
-			4559 = {
+			1096 = {
 				add_permanent_claim = ROOT
 			}
-			corsica_sardinia_area = {
+			macaronesia_area = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { is_permanent_claim = ROOT }
@@ -151,10 +151,10 @@ eng_rb_islands_med = {
 		}
 		
 		trigger = {
-			4559 = {
+			1096 = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			corsica_sardinia_area = {
+			macaronesia_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
@@ -207,13 +207,6 @@ eng_rb_islands_med = {
 		
 		effect = {
 			add_dip_power = 100
-			sicily_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_claim = ROOT }
-				}
-				add_claim = ROOT
-			}
 		}
 	}
 }

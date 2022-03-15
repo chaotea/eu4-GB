@@ -455,10 +455,12 @@ english_monarchy = {
 	legacy_equivalent = english_monarchy_legacy
 	start_territory_to_estates = 0.3
 	modifiers = {
-		governing_capacity = 50
+		governing_capacity = 1000
+		administrative_efficiency = 0.25
+		missionaries = 20
+		global_missionary_strength = 0.10
 		legitimacy = 0.5
-		global_unrest = -1
-		max_absolutism = -30
+		global_unrest = -3
 	}
 
 	conditional = {

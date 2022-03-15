@@ -130,7 +130,7 @@ GBR_ideas = {
 	}
 
 	bonus = {
-		navy_tradition = 1
+		years_of_nationalism = -25
 	}
 	
 	trigger = {
@@ -139,28 +139,27 @@ GBR_ideas = {
 	free = yes		#will be added at load.
 
 	gbr_acts_of_union = {
-		diplomatic_annexation_cost = -0.15
-		governing_capacity_modifier = 0.1
+		diplomatic_annexation_cost = -0.25
+		governing_capacity_modifier = 0.25
 	}
 	city_upon_a_hill = {
 		global_colonial_growth = 20
 	}
 	british_merchant_navy = {
-		global_tariffs = 0.15
+		trade_efficiency = 0.2
 	}
 	gbr_the_royal_society = {
 		technology_cost = -0.05
 	}
 	reform_of_comission_buying = {
-		discipline = 0.05
+		infantry_power = 0.2
 	}
 	british_industrialization = {
 		global_trade_goods_size_modifier = 0.2
 	}
 	britanna_rules_the_waves = {
 		leader_naval_manuever = 1
-		blockade_efficiency = 0.33
-		allowed_marine_fraction = 0.10
+		navy_tradition = 1
 	}
 }
 
